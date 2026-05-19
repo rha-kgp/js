@@ -1,4 +1,4 @@
-# js-playground 
+# js 
 Welcome to my JavaScript playground!
 This repository contains a collection of beginner JavaScript exercises created as a part of my learning journey
 
