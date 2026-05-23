@@ -5,38 +5,41 @@
     <title>
         Rock Paper Scissors
     </title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
-    <p>Rock Paper Scissors</p>
+    <p class="title">Rock Paper Scissors</p>
     
     <!--Rock button-->
-    <button class="js-btn" data-val="Rock">
-      Rock
+    <button class="js-btn move-btn" data-val="Rock">
+      <img src="thumbnails/rock-emoji.png" class="move-icon">
     </button>
 
 
 		<!--Paper button-->
-		<button class="js-btn" data-val="Paper">
-      Paper
+		<button class="js-btn move-btn" data-val="Paper">
+      <img src="thumbnails/paper-emoji.png" class="move-icon">
     </button>
 
 		<!--Scissors button-->
-    <button class="js-btn" data-val="Scissors">
-      Scissors
+    <button class="js-btn move-btn" data-val="Scissors">
+      <img src="thumbnails/scissors-emoji.png" class="move-icon">
     </button>
 
-    <p class="js-result"></p>
+    <p class="js-result result"></p>
 
     <p class="js-moves"></p>
 
-    <p class="js-score"></p>
+    <p class="js-score score"></p>
 
-    <button class="js-btn" id="reset-btn">
+    <button class="reset-score-btn" id="reset-btn">
       Reset Score
     </button>
      
+
+    <button class="auto-play-btn" id="autoplay-btn">Auto Play</button>
 
 
     <script type="module" src="script.js"></script>
